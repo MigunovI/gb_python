@@ -13,7 +13,7 @@ costs = float(input("Введите сумму издержек: "))
 profit = proceeds - costs
 if profit > 0:
     print(f"Фирма работает с прибылью {profit} рублей.")
-    print(f"Рентабельность составила {100 * proceeds / costs:.2f}%.")
+    print(f"Рентабельность составила {100 * profit / proceeds:.2f}%.")
     employees = int(input("Введите количество сотрудинков: "))
     print(f"Прибыль фирмы в расчете на одного сотрудника равна {profit / employees}.")
 elif profit < 0:

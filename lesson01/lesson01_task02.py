@@ -6,4 +6,4 @@
 
 seconds = int(input("Введите время в секундах: "))
 print("Время в формате чч:мм:сс:")
-print(f"{seconds // 3600}:{seconds % 3600 // 60}:{seconds % 60}")
+print(f"{seconds // 3600:<02}:{seconds % 3600 // 60:<02}:{seconds % 60:<02}")
